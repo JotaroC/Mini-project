@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My website</title>
+    <title>Mini Landing page</title>
     <link rel="stylesheet" href="mystyle.css">
 </head>
 <body>
-    
+    <header>
+        <h1>My Mini Website</h1>
+        <nav>
+            <div>
+                <ul>
+                    <li>
+                        <a href="https://github.com/JotaroC/Mini-project">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://fakeLink.com">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact_form">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div>
+            <img id=image-1 src="https://media.istockphoto.com/photos/plane-landing-during-blue-hour-picture-id1145193873?k=20&m=1145193873&s=612x612&w=0&h=wuM4XlnwAvc56aNUB_ejJwu2MdMPDzUJfg3CiFHFksY=" alt="Airplane Landing">
+        </div>        
+    </section>
+
+    <section>
+        <h2>Contact Form</h2>
+        <div class="container">
+            <form id=contact_form action="action_page.php">
+          
+              <label for="name">Name: </label>
+              <input type="text" id="name" name="Name" placeholder="Your name..">          
+              <label for="email">Email: </label>
+              <input type="text" id="email" name="Email" placeholder="Your Email address..">
+              <input type="submit" value="Submit">
+          
+            </form>
+        </div>
+    </section>
 </body>
 </html>
